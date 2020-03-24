@@ -10,16 +10,16 @@ public:
         consum = c;
     }
 
-    string get_marca(){
+    string getMarca(){
         return marca;
     }
 
-    double get_consum(){
+    double getConsum(){
         return consum;
     }
 
-    void set_marca(string m){marca = m;}
-    void set_consum(double c){consum = c;}
+    void setMarca(string m){marca = m;}
+    void setConsum(double c){consum = c;}
 
     friend ostream& operator<<(ostream& os, const Auto &a){
         os<<a.marca<< " " << a.consum<<"\n";
@@ -35,7 +35,7 @@ private:
 int main(){
     Auto a("Dacia",5.2);
     cout<<a;
-    a.set_consum(5.4);
+    a.setConsum(5.4);
     cout<<a;
     return 0;
 }
