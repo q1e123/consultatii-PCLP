@@ -1,0 +1,11 @@
+* Clasa Auto
+- 2 atribute (date membre): marca, consum
+- Constructor
+- Getters, setters pt cele 2 atribute
+* Instantiere de obiect h: “Dacia”, “5.2”
+* Apelare getters pentru obiectul h
+- cout <<     => Dacia; consum: 5.2
+* Apelare setters pentru obiectul h
+- consum: 5.4
+* Apelare getters pentru obiectul h
+- cout <<     => Dacia; consum: 5.4
